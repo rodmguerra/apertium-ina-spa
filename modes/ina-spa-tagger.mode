@@ -1,0 +1,3 @@
+    
+    lt-proc -w /Users/ethanchi/Documents/apy/apertium-ina-spa/ina-spa.automorf.bin |cg-proc -w /Users/ethanchi/Documents/apy/apertium-ina-spa/ina-spa.rlx.bin |apertium-tagger -g $2 /Users/ethanchi/Documents/apy/apertium-ina-spa/ina-spa.prob 
+  

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+   <!-- Define the alphabet below. -->
+  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+
+  <sdefs>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="n"     c="Noun"/>
+    <sdef n="sg"    c="Singular"/>
+    <sdef n="pl"    c="Plural"/>
+    <sdef n="m"    c="Masculine"/>
+    <sdef n="f"    c="Feminine"/>
+
+  </sdefs>
+
+   <section id="main" type="standard">
+      <!-- Define entries within <e> here. -->
+           <e><p><l>can<s n="n"/></l><r>perro<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>homine<s n="n"/></l><r>hombre<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>arbore<s n="n"/></l><r>árbol<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>cosa<s n="n"/></l><r>cosa<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>ave<s n="n"/></l><r>pájaro<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>folio<s n="n"/></l><r>hoja<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>infante<s n="n"/></l><r>infante<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>femina<s n="n"/></l><r>mujer<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>patre<s n="n"/></l><r>padre<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>matre<s n="n"/></l><r>madre<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>serpente<s n="n"/></l><r>serpiente<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>pediculo<s n="n"/></l><r>pie<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>casa<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>elephante<s n="n"/></l><r>elefante<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>scientia<s n="n"/></l><r>ciencia<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>fructo<s n="n"/></l><r>fruta<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>amico<s n="n"/></l><r>amigo<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>persona<s n="n"/></l><r>persona<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>causa<s n="n"/></l><r>causa<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>federation<s n="n"/></l><r>federación<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>sorta<s n="n"/></l><r>género<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>idea<s n="n"/></l><r>idea<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>horologio<s n="n"/></l><r>reloj<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>catto<s n="n"/></l><r>gato<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>aqua<s n="n"/></l><r>agua<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>derecto<s n="n"/></l><r>derecho<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>opera<s n="n"/></l><r>obra<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>linea<s n="n"/></l><r>línea<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>moda<s n="n"/></l><r>moda<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>medie<s n="n"/></l><r>medio<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>parola<s n="n"/></l><r>palabra<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>muro<s n="n"/></l><r>muro<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>natura<s n="n"/></l><r>natura<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>nube<s n="n"/></l><r>nube<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>objectivo<s n="n"/></l><r>objetivo<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>calma<s n="n"/></l><r>calma<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>demon<s n="n"/></l><r>demonio<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>festa<s n="n"/></l><r>fiesta<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>gesto<s n="n"/></l><r>gesto<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>mundo<s n="n"/></l><r>mundo<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>accordo<s n="n"/></l><r>acuerdo<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>dama<s n="n"/></l><r>dama<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>libro<s n="n"/></l><r>libro<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>litteratura<s n="n"/></l><r>literatura<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>radio<s n="n"/></l><r>radio<s n="n"/><s n="m"/></r></p></e>
+           <e><p><l>invitation<s n="n"/></l><r>invitación<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>baston<s n="n"/></l><r>astilla<s n="n"/><s n="f"/></r></p></e>
+           <e><p><l>cigarro<s n="n"/></l><r>cigarro<s n="n"/><s n="m"/></r></p></e>
+            <e><p><l>disastro<s n="n"/></l><r>desastre<s n="n"/><s n="m"/></r></p></e>
+            <e><p><l>calma<s n="n"/></l><r>calma<s n="n"/><s n="f"/></r></p></e>
+
+   </section>
+</dictionary>
+
+<!-- 
+Resources: 
+    http://wiki.apertium.org/wiki/Bilingual_dictionary
+    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
+-->
+
