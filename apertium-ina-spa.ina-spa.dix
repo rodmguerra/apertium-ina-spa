@@ -11,6 +11,19 @@
     <sdef n="m"    c="Masculine"/>
     <sdef n="f"    c="Feminine"/>
     <sdef n="vblex"    c="Verb"/>
+    <sdef n="prn"    c="Pronoun"/>
+    <sdef n="tn"    c="Tonic"/>
+    <sdef n="nom"    c="Nominative"/>
+    <sdef n="p1"    c="1st person"/>
+    <sdef n="p2"    c="2nd person"/>
+    <sdef n="p3"    c="3rd person"/>
+    <sdef n="det"    c="Determiner"/>
+    <sdef n="sp"    c="Singular/plural"/>
+    <sdef n="def"    c="Definite"/>
+    <sdef n="mf"    c="Masculine/feminine"/>
+    <sdef n="adj"    c="Adjective"/>
+    <sdef n="nd"    c=""/>
+    <sdef n="gd"    c=""/>
 
   </sdefs>
 
@@ -567,7 +580,23 @@
            <e><p><l>inverter<s n="vblex"/></l><r>zozobrar<s n="vblex"/></r></p></e>
            <e><p><l>mangiar<s n="vblex"/></l><r>comer<s n="vblex"/></r></p></e>
            <e><p><l>pensar<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
+            <e><p><l>io<s n="prn"/><s n="nom"/></l><r>yo<s n="prn"/><s n="tn"/></r></p></e>
+            <e><p><l>tu<s n="prn"/><s n="nom"/></l><r>tú<s n="prn"/><s n="tn"/></r></p></e>
+            <e><p><l>illo<s n="prn"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+            <e r="RL"><p><l>illo<s n="prn"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+            <e r="RL"><p><l>illo<s n="prn"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 
+            <e><p><l>nos<s n="prn"/><s n="nom"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+            <e><p><l>vos<s n="prn"/><s n="nom"/></l><r>vos<s n="prn"/><s n="tn"/></r></p></e>
+
+                    
+            <e r="RL"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="sp"/><s n="m"/><s n="sg"/></r></p></e>
+            <e r="RL"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="sp"/><s n="f"/><s n="sg"/></r></p></e>
+            <e r="RL"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="sp"/><s n="mf"/><s n="pl"/></r></p></e>
+            <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="nd"/><s n="gd"/></r></p></e>
+       
+       
+            <e><p><l>certe<s n="adj"/></l><r>cierto<s n="adj"/></r></p></e>
 
    </section>
 </dictionary>
