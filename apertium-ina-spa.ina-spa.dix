@@ -587,11 +587,11 @@
             <e r="RL"><p><l>illo<s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
             <e r="RL"><p><l>illo<s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
-            <e><p><l>nos<s n="prn"/><s n="nom"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-            <e r="RL"><p><l>nos<s n="prn"/><s n="nom"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+            <e><p><l>nos<s n="prn"/><s n="nom"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>nos<s n="prn"/><s n="nom"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
 
-            <e><p><l>vos<s n="prn"/><s n="nom"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
-            <e r="RL"><p><l>vos<s n="prn"/><s n="nom"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+            <e><p><l>vos<s n="prn"/><s n="nom"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>vos<s n="prn"/><s n="nom"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
 
                    <e><p><l>illos<s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
             <e r="RL"><p><l>illos<s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
