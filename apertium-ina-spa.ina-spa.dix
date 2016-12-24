@@ -24,6 +24,7 @@
     <sdef n="adj"    c="Adjective"/>
     <sdef n="nd"    c=""/>
     <sdef n="gd"    c=""/>
+    <sdef n="num"    c="Numeral"/>
 
   </sdefs>
 
@@ -483,7 +484,7 @@
            <e><p><l>dar<s n="vblex"/></l><r>ofrecer<s n="vblex"/></r></p></e>
            <e><p><l>oblidar<s n="vblex"/></l><r>olvidar<s n="vblex"/></r></p></e>
            <e><p><l>ordinar<s n="vblex"/></l><r>ordenar<s n="vblex"/></r></p></e>
-           <e><p><l>finir<s n="vblex"/></l><r>orgulloso acabar<s n="vblex"/></r></p></e>
+           <e><p><l>finir<s n="vblex"/></l><r>acabar<s n="vblex"/></r></p></e>
            <e><p><l>concentrar<s n="vblex"/></l><r>orientar<s n="vblex"/></r></p></e>
            <e><p><l>diriger<s n="vblex"/></l><r>orientar<s n="vblex"/></r></p></e>
            <e><p><l>patir<s n="vblex"/></l><r>padecer<s n="vblex"/></r></p></e>
@@ -493,7 +494,7 @@
            <e><p><l>demandar<s n="vblex"/></l><r>pedir<s n="vblex"/></r></p></e>
            <e><p><l>glutinar<s n="vblex"/></l><r>pegar<s n="vblex"/></r></p></e>
            <e><p><l>pectinar<s n="vblex"/></l><r>peinar<s n="vblex"/></r></p></e>
-           <e><p><l>avisar<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
+           <e r="LR"><p><l>avisar<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
            <e><p><l>perciper<s n="vblex"/></l><r>percibir<s n="vblex"/></r></p></e>
            <e><p><l>pardonar<s n="vblex"/></l><r>perdonar<s n="vblex"/></r></p></e>
            <e><p><l>nocer<s n="vblex"/></l><r>perjudicar<s n="vblex"/></r></p></e>
@@ -582,9 +583,9 @@
            <e><p><l>pensar<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
             <e><p><l>io<s n="prn"/><s n="nom"/></l><r>yo<s n="prn"/><s n="tn"/></r></p></e>
             <e><p><l>tu<s n="prn"/><s n="nom"/></l><r>tú<s n="prn"/><s n="tn"/></r></p></e>
-            <e><p><l>illo<s n="prn"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
-            <e r="RL"><p><l>illo<s n="prn"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
-            <e r="RL"><p><l>illo<s n="prn"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+            <e><p><l>illo<s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+            <e r="RL"><p><l>illo<s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+            <e r="RL"><p><l>illo<s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
             <e><p><l>nos<s n="prn"/><s n="nom"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
             <e r="RL"><p><l>nos<s n="prn"/><s n="nom"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
@@ -592,14 +593,29 @@
             <e><p><l>vos<s n="prn"/><s n="nom"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
             <e r="RL"><p><l>vos<s n="prn"/><s n="nom"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
 
+                   <e><p><l>illos<s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>illos<s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>illos<s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
                     
-            <e r="RL"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="sp"/><s n="m"/><s n="sg"/></r></p></e>
-            <e r="RL"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="sp"/><s n="f"/><s n="sg"/></r></p></e>
-            <e r="RL"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="sp"/><s n="mf"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+            <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+            <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
             <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="nd"/><s n="gd"/></r></p></e>
        
        
             <e><p><l>certe<s n="adj"/></l><r>cierto<s n="adj"/></r></p></e>
+       
+                  <e><p><l>duo<s n="num"/></l><r>dos<s n="num"/></r></p></e>
+            <e><p><l>tres<s n="num"/></l><r>tres<s n="num"/></r></p></e>
+            <e><p><l>quatro<s n="num"/></l><r>cuatro<s n="num"/></r></p></e>
+            <e><p><l>cinque<s n="num"/></l><r>cinco<s n="num"/></r></p></e>
+            <e><p><l>sex<s n="num"/></l><r>seis<s n="num"/></r></p></e>
+            <e><p><l>septe<s n="num"/></l><r>siete<s n="num"/></r></p></e>
+            <e><p><l>octo<s n="num"/></l><r>ocho<s n="num"/></r></p></e>
+            <e><p><l>nove<s n="num"/></l><r>nueve<s n="num"/></r></p></e>
+            <e><p><l>dece<s n="num"/></l><r>diez<s n="num"/></r></p></e>
+
 
    </section>
 </dictionary>
