@@ -586,8 +586,11 @@
             <e r="RL"><p><l>illo<s n="prn"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
             <e r="RL"><p><l>illo<s n="prn"/><s n="nom"/></l><r>él<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 
-            <e><p><l>nos<s n="prn"/><s n="nom"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
-            <e><p><l>vos<s n="prn"/><s n="nom"/></l><r>vos<s n="prn"/><s n="tn"/></r></p></e>
+            <e><p><l>nos<s n="prn"/><s n="nom"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>nos<s n="prn"/><s n="nom"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+
+            <e><p><l>vos<s n="prn"/><s n="nom"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+            <e r="RL"><p><l>vos<s n="prn"/><s n="nom"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
 
                     
             <e r="RL"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="sp"/><s n="m"/><s n="sg"/></r></p></e>
