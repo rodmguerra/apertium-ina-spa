@@ -23,7 +23,7 @@
             <cat-item tags="adj.*"/>
         </def-cat>
         <def-cat n="ger">
-            <cat-item tags="vblex.ger.*"/>
+            <cat-item tags="*.ger"/>
         </def-cat>
         <def-cat n="num">
             <cat-item tags="num.*"/>
@@ -111,6 +111,26 @@
                 </out>
             </action>
         </rule>
+        <rule comment="RULE: gerunds">
+            <pattern>
+                <pattern-item n="ger"/>
+            </pattern>
+
+            <action>
+                <out>
+                    <chunk name="vb">
+                        <tags>
+                            <tag><lit-tag v="VB"/></tag>
+                        </tags>            
+                        <lu>
+                             <clip pos="1" side="sl" part="lem"/>
+                            <clip pos="1" side="sl" part="a_verb"/>
+                            <lit-tag v="pprs"/>
+                        </lu>
+                    </chunk>
+                </out>
+            </action>
+        </rule>  
         <rule comment="RULE: Remove gender information for nouns">
             <pattern>
                 <pattern-item n="nom"/>
@@ -188,31 +208,8 @@
                 </out>
             </action>
         </rule>
-        <rule comment="RULE: Conjugate pronouns properly">
-            <pattern>
-                <pattern-item n="prn"/>
-            </pattern>
-            <action>
-                <out>
-                    <chunk name="prn">
-                        <tags>
-                            <tag><lit-tag v="SN"/></tag>
-                        </tags>
-                        <lu>
-                            <clip pos="1" side="tl" part="lem"/>
-                            <clip pos="1" side="tl" part="word_type"/>
-                            <lit-tag v="nom"/> 
-                            <clip pos="1" side="tl" part="pers"/>
-                            <clip pos="1" side="tl" part="gender"/>
 
-                            <clip pos="1" side="tl" part="nbr"/>
-
-
-                        </lu>
-                    </chunk>
-                </out>
-            </action>
-        </rule>   
+        
         <rule comment="RULE: Remove gender information for adjectives">
             <pattern>
                 <pattern-item n="adj"/>
@@ -252,9 +249,9 @@
                 </out>
             </action>
         </rule>  
+
     </section-rules>
 </transfer>
-
 <!--
 Resources:
     http://wiki.apertium.org/wiki/Chunking:_A_full_example
