@@ -867,20 +867,20 @@
                             <choose>
                                 <when>
                                     <test><!--mirem si concorda amb el possible subj-->
-                                        <or>
-                                            <not>
-                                                <equal>
-                                                    <var n="pers_subj"/>
-                                                    <lit-tag v="p1"/>
-                                                </equal>
-                                            </not>
-                                            <not>
-                                                <equal>
-                                                    <clip pos="1" part="nbr"/>
-                                                    <var n="nombre_subj"/>
-                                                </equal>
-                                            </not>
-                                        </or>
+                                            <or>
+                                                <not>
+                                                    <equal>
+                                                        <var n="pers_subj"/>
+                                                        <lit-tag v="p1"/>
+                                                    </equal>
+                                                </not>
+                                                <not>
+                                                    <equal>
+                                                        <clip pos="1" part="nbr"/>
+                                                        <var n="nombre_subj"/>
+                                                    </equal>
+                                                </not>
+                                            </or>
                                     </test>
                                     <choose><!--si no, n'hi posem un-->
                                         <when>
@@ -1003,12 +1003,39 @@
                                         <when>
                                             <test><!--mirem si concorda amb el possible subj-->
                                                 <or>
-                                                    <not>
-                                                        <equal>
-                                                            <var n="pers_subj"/>
-                                                            <lit-tag v="p3"/>
-                                                        </equal>
-                                                    </not>
+                                                    <and>
+                                                        <not>
+                                                            <equal>
+                                                                <var n="pers_subj"/>
+                                                                <lit-tag v="p3"/>
+                                                            </equal>
+                                                        </not>
+                                                        <!--p1 = p3 in ppi (compraba) e cni (compraría)-->
+                                                        <!--<not>-->
+                                                            <!--<equal>-->
+                                                                <!--<var n="pers_subj"/>-->
+                                                                <!--<lit-tag v="p1"/>-->
+                                                            <!--</equal>-->
+                                                        <!--</not>-->
+                                                        <not>
+                                                            <and>
+                                                                <equal>
+                                                                    <var n="pers_subj"/>
+                                                                    <lit-tag v="p1"/>
+                                                                </equal>
+                                                                <or>
+                                                                    <equal>
+                                                                        <clip pos="1" part="temps"/>
+                                                                        <lit-tag v="pii"/>
+                                                                    </equal>
+                                                                    <equal>
+                                                                        <clip pos="1" part="temps"/>
+                                                                        <lit-tag v="cni"/>
+                                                                    </equal>
+                                                                </or>
+                                                            </and>
+                                                        </not>
+                                                    </and>
                                                     <not>
                                                         <equal>
                                                             <clip pos="1" part="nbr"/>

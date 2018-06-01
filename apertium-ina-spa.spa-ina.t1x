@@ -8169,8 +8169,8 @@
                             </get-case-from>
                             <clip pos="1" side="tl" part="a_verb"/>
                             <clip pos="1" side="tl" part="temps"/>
-                            <clip pos="1" side="tl" part="pers"/>
-                            <clip pos="1" side="tl" part="nbr"/>
+                            <!--<clip pos="1" side="tl" part="pers"/> Adaptate pro interlingua-->
+                            <!--<clip pos="1" side="tl" part="nbr"/> Adaptate pro interlingua-->
                         </lu>
                         <b pos="1"/>
                         <lu>
@@ -17751,16 +17751,16 @@
                             <clip pos="1" side="tl" part="lemh"/>
                             <clip pos="1" side="tl" part="a_verb"/>
                             <clip pos="1" side="tl" part="temps"/>
-                            <clip pos="1" side="tl" part="pers"/>
-                            <clip pos="1" side="tl" part="nbr"/>
+                            <!--<clip pos="1" side="tl" part="pers"/> Removite pro interlingua -->
+                            <!--<clip pos="1" side="tl" part="nbr"/> Removite pro interlingua -->
                             <clip pos="1" side="tl" part="lemq"/>
                         </lu>
                         <b pos="1"/>
                         <lu>
                             <clip pos="2" side="tl" part="lemh"/>
                             <clip pos="2" side="tl" part="a_pp"/>
-                            <lit-tag v="m"/>
-                            <clip pos="2" side="tl" part="nbr"/>
+                            <!--<lit-tag v="m"/> Removite pro interlingua, nulle genere de participio -->
+                            <!--<clip pos="2" side="tl" part="nbr"/> Removite pro interlingua, nulle numero de participio-->
                             <clip pos="2" side="tl" part="lemq"/>
                         </lu>
                     </chunk>
