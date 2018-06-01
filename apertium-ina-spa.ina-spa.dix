@@ -14,6 +14,7 @@
         <sdef n="vblex"    c="Verb"/>
         <sdef n="vbser"    c="Verb Ser"/>
         <sdef n="vbhaver"    c="Verb Haber"/>
+         <sdef n="vbmod"    c="Modal verb"/>
         <sdef n="prn"    c="Pronoun"/>
         <sdef n="tn"    c="Tonic"/>
         <sdef n="nom"    c="Nominative"/>
@@ -1278,7 +1279,7 @@
         <e><p><l>renovar<s n="vblex"/></l><r>actualizar<s n="vblex"/></r></p></e>
         <e><p><l>quartierar<s n="vblex"/></l><r>acuartelar<s n="vblex"/></r></p></e>
         <e><p><l>comprimer<s n="vblex"/></l><r>acuciar<s n="vblex"/></r></p></e>
-        <e><p><l>vader<s n="vblex"/></l><r>acudir<s n="vblex"/></r></p></e>
+        <e><p><l>ir<s n="vblex"/></l><r>ir<s n="vblex"/></r></p></e>
         <e><p><l>accumular<s n="vblex"/></l><r>acumular<s n="vblex"/></r></p></e>
         <e><p><l>accusar<s n="vblex"/></l><r>acusar<s n="vblex"/></r></p></e>
         <e><p><l>adaptar<s n="vblex"/></l><r>adaptar<s n="vblex"/></r></p></e>
@@ -1743,8 +1744,19 @@
         <e><p><l>inverter<s n="vblex"/></l><r>zozobrar<s n="vblex"/></r></p></e>
         <e><p><l>mangiar<s n="vblex"/></l><r>comer<s n="vblex"/></r></p></e>
         <e><p><l>pensar<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
+
+         <!-- ser, estar = esser -->
         <e><p><l>esser<s n="vbser"/></l><r>ser<s n="vbser"/></r></p></e>
+        <e r="RL"><p><l>esser<s n="vbser"/></l><r>estar<s n="vblex"/></r></p></e>
+
+        <!-- haber, tener, hay = haber -->
         <e><p><l>haber<s n="vbhaver"/></l><r>haber<s n="vbhaver"/></r></p></e>
+        <e r="RL"><p><l>haber<s n="vblex"/></l>      <r>hay<s n="vblex"/></r></p></e>
+        <e><p><l>haber<s n="vblex"/></l>      <r>tener<s n="vblex"/></r></p></e>
+
+       <!-- poter -->
+       <e><p><l>poter<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
+
         <e><p><l>io<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="tn"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
         <e><p><l>tu<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="tn"/></l><r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 

@@ -494,6 +494,8 @@
             <list-item v="despedir# de"/>
             <list-item v="despedir"/>
         </def-list>
+
+       <!-- TODO: REMOVE THIS LIST, IN FRENCH CHOOSES BETWEEN ETRE E AVOIR, IN INTERLINGUA IS ALWAYS HABER -->
         <def-list n="vbambser">
             <list-item v="aller"/>
             <list-item v="tomber# amoureux"/>
@@ -3779,6 +3781,9 @@
                 </when>
             </choose>
         </def-macro>
+
+
+       <!-- TODO: REMOVE THIS MACRO, IN FRENCH CHOOSES BETWEEN ETRE E AVOIR, IN INTERLINGUA IS ALWAYS HABER -->
         <def-macro n="vauxiliar" npar="2">
             <choose>
                 <when>
@@ -7994,9 +7999,11 @@
                 <pattern-item n="verbpers"/>
             </pattern>
             <action>
+            <!--
                 <call-macro n="fts">
                     <with-param pos="1"/>
                 </call-macro>
+                -->
                 <call-macro n="f_imp">
                     <with-param pos="1"/>
                 </call-macro>
@@ -8653,7 +8660,7 @@
                 </call-macro>
                 <let>
                     <var n="lema"/>
-                    <lit v="etre_en_train_de_inf"/>
+                    <lit v="sin_gerundio"/>
                 </let>
                 <call-macro n="fts">
                     <with-param pos="1"/>
@@ -8678,32 +8685,9 @@
                             </tag>
                         </tags>
                         <lu>
-                            <lit v="être"/>
-                            <lit-tag v="vbser"/>
-                            <clip pos="1" side="tl" part="temps"/>
-                            <clip pos="1" side="tl" part="pers"/>
-                            <clip pos="1" side="tl" part="nbr"/>
-                        </lu>
-                        <b/>
-                        <lu>
-                            <lit v="en"/>
-                            <lit-tag v="pr"/>
-                        </lu>
-                        <b/>
-                        <lu>
-                            <lit v="train"/>
-                            <lit-tag v="n.m.sg"/>
-                        </lu>
-                        <b/>
-                        <lu>
-                            <lit v="de"/>
-                            <lit-tag v="pr"/>
-                        </lu>
-                        <b pos="1"/>
-                        <lu>
                             <clip pos="2" side="tl" part="lemh"/>
                             <clip pos="2" side="tl" part="a_verb"/>
-                            <lit-tag v="inf"/>
+                            <clip pos="1" side="tl" part="temps"/> <!-- estar tense -->
                             <clip pos="2" side="tl" part="lemq"/>
                         </lu>
                     </chunk>
@@ -8938,7 +8922,7 @@
                 </let>
             </action>
         </rule>
-        <rule comment="REGLA: ir a inf -&gt; aller inf">
+        <rule comment="REGLA: ir a inf -&gt; ir inf">
             <pattern>
                 <pattern-item n="ir"/>
                 <pattern-item n="a"/>
@@ -8952,7 +8936,7 @@
                     <with-param pos="1"/>
                 </call-macro>
                 <out>
-                    <chunk name="aller_verb" case="caseFirstWord">
+                    <chunk name="ir_verb" case="caseFirstWord">
                         <tags>
                             <tag>
                                 <lit-tag v="SV"/>
@@ -8974,8 +8958,8 @@
                             <clip pos="1" side="tl" part="lem"/>
                             <clip pos="1" side="tl" part="a_verb"/>
                             <clip pos="1" side="tl" part="temps"/>
-                            <clip pos="1" side="tl" part="pers"/>
-                            <clip pos="1" side="tl" part="nbr"/>
+                            <!--<clip pos="1" side="tl" part="pers"/>-->
+                            <!--<clip pos="1" side="tl" part="nbr"/>-->
                         </lu>
                         <b pos="1"/>
                         <lu>
@@ -9046,8 +9030,8 @@
                                     <clip pos="1" side="tl" part="lem"/>
                                     <clip pos="1" side="tl" part="a_verb"/>
                                     <clip pos="1" side="tl" part="temps"/>
-                                    <clip pos="1" side="tl" part="pers"/>
-                                    <clip pos="1" side="tl" part="nbr"/>
+                                    <!--<clip pos="1" side="tl" part="pers"/>-->
+                                    <!--<clip pos="1" side="tl" part="nbr"/>-->
                                 </lu>
                                 <b pos="1"/>
                                 <lu>
@@ -19947,15 +19931,15 @@
                             <clip pos="1" side="tl" part="lemh"/>
                             <clip pos="1" side="tl" part="a_verb"/>
                             <clip pos="1" side="tl" part="temps"/>
-                            <clip pos="1" side="tl" part="pers"/>
-                            <clip pos="1" side="tl" part="nbr"/>
+                            <!--<clip pos="1" side="tl" part="pers"/> removite pro interlingua -->
+                            <!--<clip pos="1" side="tl" part="nbr"/> removite pro interlingua -->
                             <clip pos="1" side="tl" part="lemq"/>
                         </lu>
                         <b pos="1"/>
                         <lu>
                             <clip pos="2" side="tl" part="lemh"/>
                             <clip pos="2" side="tl" part="a_pp"/>
-                            <lit-tag v="m.sg"/>
+                            <!--<lit-tag v="m.sg"/> removite pro interlingua -->
                             <clip pos="2" side="tl" part="lemq"/>
                         </lu>
                         <b pos="2"/>
@@ -22417,7 +22401,7 @@
                     <with-param pos="1"/>
                 </call-macro>
                 <out>
-                    <chunk name="prnperssubj" case="caseFirstWord">
+                    <chunk name="prnperssubj" > <!--case="caseFirstWord"--> 
                         <tags>
                             <tag>
                                 <lit-tag v="SN"/>

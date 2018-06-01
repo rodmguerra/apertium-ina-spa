@@ -1010,13 +1010,7 @@
                                                                 <lit-tag v="p3"/>
                                                             </equal>
                                                         </not>
-                                                        <!--p1 = p3 in ppi (compraba) e cni (compraría)-->
-                                                        <!--<not>-->
-                                                            <!--<equal>-->
-                                                                <!--<var n="pers_subj"/>-->
-                                                                <!--<lit-tag v="p1"/>-->
-                                                            <!--</equal>-->
-                                                        <!--</not>-->
+                                                        <!--p1 = p3 in ppi (compraba), cni (compraría), prs (compre), pis (comiese), fts (comiere)-->
                                                         <not>
                                                             <and>
                                                                 <equal>
@@ -1032,6 +1026,18 @@
                                                                         <clip pos="1" part="temps"/>
                                                                         <lit-tag v="cni"/>
                                                                     </equal>
+                                                                   <equal>
+                                                                      <clip pos="1" part="temps"/>
+                                                                      <lit-tag v="prs"/>
+                                                                   </equal>
+                                                                   <equal>
+                                                                      <clip pos="1" part="temps"/>
+                                                                      <lit-tag v="pis"/>
+                                                                   </equal>
+                                                                   <equal>
+                                                                      <clip pos="1" part="temps"/>
+                                                                      <lit-tag v="fts"/>
+                                                                   </equal>
                                                                 </or>
                                                             </and>
                                                         </not>
