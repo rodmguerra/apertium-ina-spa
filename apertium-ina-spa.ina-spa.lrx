@@ -4,12 +4,12 @@
     Add your own rules within <rule> here, using the resources below as a guide 
   -->
 
-  <rule>
-    <match lemma="wind"/>
-    <match lemma="power" tags="n.*">
-      <select lemma="energía" tags="n.*"/>
-    </match>
-  </rule>
+  <!--<rule>-->
+    <!--<match lemma="wind"/>-->
+    <!--<match lemma="power" tags="n.*">-->
+      <!--<select lemma="energía" tags="n.*"/>-->
+    <!--</match>-->
+  <!--</rule>-->
 </rules>
 
 <!-- 
