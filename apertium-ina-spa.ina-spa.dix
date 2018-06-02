@@ -1810,11 +1810,29 @@
         <e><p><l>nove<s n="num"/></l><r>nueve<s n="num"/></r></p></e>
         <e><p><l>dece<s n="num"/></l><r>diez<s n="num"/></r></p></e>
 
-
-        <!-- Prepositions -->
-        <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
-        <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
-
+         <!-- Prepositions -->    <!-- most common only: TODO: Map all IA and all ES prepositions -->
+         <e><p><l>in<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+         <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+         <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+         <e><p><l>per<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+         <e><p><l>pro<s n="pr"/></l><r>para<s n="pr"/></r></p></e>
+         <e><p><l>inter<s n="pr"/></l><r>entre<s n="pr"/></r></p></e>
+         <e><p><l>contra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
+         <e><p><l>ultra<s n="pr"/></l><r>más<b/>allá<b/>de<s n="pr"/></r></p></e>
+         <e><p><l>con<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+         <e><p><l>sin<s n="pr"/></l><r>sin<s n="pr"/></r></p></e>
+         <e><p><l>intra<s n="pr"/></l><r>dentro<b/>de<s n="pr"/></r></p></e>
+         <e><p><l>extra<s n="pr"/></l><r>fuera<b/>de<s n="pr"/></r></p></e>
+         <e><p><l>sub<s n="pr"/></l><r>bajo<s n="pr"/></r></p></e>
+         <e><p><l>super<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+         <e><p><l>supra<s n="pr"/></l><r>encima<b/>de<s n="pr"/></r></p></e>
+         <e><p><l>infra<s n="pr"/></l><r>debajo<b/>de<s n="pr"/></r></p></e>
+         <e><p><l>ante<s n="pr"/></l><r>ante<s n="pr"/></r></p></e>
+         <e r="RL"><p><l>ante<s n="pr"/></l><r>delante<b/>de<s n="pr"/></r></p></e>
+         <e><p><l>post<s n="pr"/></l><r>despues<b/>de<s n="pr"/></r></p></e>
+         <e><p><l>usque<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
+         <e><p><l>verso<s n="pr"/></l><r>hacia<s n="pr"/></r></p></e>
+         <e><p><l>durante<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
 
 
 
