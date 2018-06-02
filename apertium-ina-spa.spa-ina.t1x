@@ -22401,7 +22401,7 @@
                     <with-param pos="1"/>
                 </call-macro>
                 <out>
-                    <chunk name="prnperssubj" > <!--case="caseFirstWord"--> 
+                    <chunk name="prnperssubj" case="caseFirstWord"> 
                         <tags>
                             <tag>
                                 <lit-tag v="SN"/>

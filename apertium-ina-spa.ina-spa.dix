@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dictionary>
+<dictionary> 
     <!-- Define the alphabet below. -->
     <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
 
@@ -24,12 +24,21 @@
         <sdef n="det"    c="Determiner"/>
         <sdef n="sp"    c="Singular/plural"/>
         <sdef n="def"    c="Definite"/>
+        <sdef n="ind"    c="Indefinite"/>
         <sdef n="mf"    c="Masculine/feminine"/>
         <sdef n="adj"    c="Adjective"/>
         <sdef n="nd"    c=""/>
         <sdef n="gd"    c=""/>
         <sdef n="num"    c="Numeral"/>
         <sdef n="pr"    c="Preposition"/>
+       <sdef n="percent" />
+       <sdef n="hour" />
+       <sdef n="rpar" />
+       <sdef n="lpar" />
+       <sdef n="sent" />
+       <sdef n="lquest" />
+       <sdef n="cm" />
+       <sdef n="ord" />
 
     </sdefs>
 
@@ -1760,29 +1769,33 @@
         <e><p><l>io<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="tn"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
         <e><p><l>tu<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="tn"/></l><r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 
+       <!-- ille, illa, illo, illes, illas <=> él, ella, ello, ellos, ellas -->
         <e><p><l>ille<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
         <e><p><l>ille<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+        <e><p><l>illo<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="tn"/></l><r>ello<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/></r></p></e>
+        <e><p><l>ille<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+        <e><p><l>ille<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+        <!-- illos => ellos -->
+        <e r="LR"><p><l>illos<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 
-        <e><p><l>illo<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="tn"/></l><r>eso<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-        <e r="RL"><p><l>illo<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="tn"/></l><r>eso<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-
+        <!-- nos <=> nosotros;      nos <= nosotras -->
         <e><p><l>nos<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
         <e r="RL"><p><l>nos<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
 
+        <!-- vos <=> nosotros;      nos <= vosotras -->
         <e><p><l>vos<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
         <e r="RL"><p><l>vos<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
 
-        <e><p><l>illos<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-        <e r="RL"><p><l>illos<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-        <e r="RL"><p><l>illos<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-        <e r="LR"><p><l>ille<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-        <e r="LR"><p><l>ille<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
         <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
         <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
         <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
         <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
-        <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="nd"/><s n="gd"/></r></p></e>
+        <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="gd"/><s n="nd"/></r></p></e>
+
+       <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+       <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="gd"/><s n="sg"/></r></p></e>
 
 
         <e><p><l>certe<s n="adj"/></l><r>cierto<s n="adj"/></r></p></e>
@@ -1808,6 +1821,28 @@
 
 
     </section>
+
+   <section id="final" type="standard">
+      <e>       <re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>
+      <e>       <re>[\+\-]?[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+      <e>       <re>[\+\-]?[0-9]+([.,][0-9]+)?[ ]?\-[ ]?[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+      <e>       <re>[\+\-]?[0-9]+([.,][0-9]+)?[ ]?%</re><p><l><s n="num"/><s n="percent"/></l><r><s n="num"/><s n="percent"/></r></p></e>
+      <e>       <re>[\+\-]?[0-9]+([.,][0-9]+)?[ ]?\-[ ]?[0-9]+([.,][0-9]+)?([ ]?%)?</re><p><l><s n="num"/><s n="percent"/></l><r><s n="num"/><s n="percent"/></r></p></e>
+      <e>       <p><l>1er<s n="num"/><s n="ord"/><s n="m"/></l><r>1.º<s n="num"/><s n="ord"/><s n="m"/></r></p></e>
+      <e>       <p><l>1er<s n="num"/><s n="ord"/><s n="f"/></l><r>1.ª<s n="num"/><s n="ord"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>2d<s n="num"/><s n="ord"/><s n="m"/></l><r>2.º<s n="num"/><s n="ord"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>2d<s n="num"/><s n="ord"/><s n="f"/></l><r>2.ª<s n="num"/><s n="ord"/><s n="f"/></r></p></e>
+      <e>       <re>([0-9]+[0-9]|[02-9])</re><p><l>e<s n="num"/><s n="ord"/><s n="m"/></l><r>.º<s n="num"/><s n="ord"/><s n="m"/></r></p></e>
+      <e>       <re>([0-9]+[0-9]|[02-9])</re><p><l>e<s n="num"/><s n="ord"/><s n="f"/></l><r>.ª<s n="num"/><s n="ord"/><s n="f"/></r></p></e>
+      <e>       <re>[0-9]+([.,][0-9]+)?%</re><p><l><s n="num"/><s n="percent"/></l><r><s n="num"/><s n="percent"/></r></p></e>
+      <e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e>       <re>[\(\[]</re><p><l><s n="lpar"/></l>  <r><s n="lpar"/></r></p></e>
+      <e>       <re>[\)\]]</re><p><l><s n="rpar"/></l>  <r><s n="rpar"/></r></p></e>
+      <e>       <re>¿</re><p><l><s n="lquest"/></l>     <r><s n="lquest"/></r></p></e>
+      <e>       <re>[a-z.]+@[a-z.]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+      <e>       <!--<re>(((www.)|(http://))[a-z0-9\-]+([.][a-z]+)+(/[a-z0-9_]+)*([.][a-z]+)*)</re>--><re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+      <e>       <re>[0-2]?[0-9]h[0-6][0-9]</re><i><s n="num"/><s n="hour"/></i></e>
+   </section>
 </dictionary>
 
         <!--

@@ -3671,7 +3671,8 @@
                 </out>
             </action>
         </rule>
-        <!-- -->
+        <!-- TODO: VERIFY IF THIS RULE COPIED FROM FRENCH APPLIES TO INTERLINGUA -->
+
         <rule comment="REGLA: SV SN">
             <pattern>
                 <pattern-item n="SV"/>
