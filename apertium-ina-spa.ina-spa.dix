@@ -41,7 +41,8 @@
        <sdef n="lquest" />
        <sdef n="cm" />
        <sdef n="ord" />
-
+       <sdef n="adv" />
+       <sdef n="cnjcoo" />
     </sdefs>
 
     <section id="main" type="standard">
@@ -1916,8 +1917,8 @@
        <e><p><l>me<s n="prn"/><s n="pro"/></l><r>me<s n="prn"/><s n="pro"/></r></p></e>
        <e><p><l>te<s n="prn"/><s n="pro"/></l><r>te<s n="prn"/><s n="pro"/></r></p></e>
        <e><p><l>se<s n="prn"/><s n="pro"/></l><r>se<s n="prn"/><s n="pro"/></r></p></e>
-       <e><p><l>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-       <e><p><l>vos<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>vos<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+       <e><p><l>nos<s n="prn"/><s n="pro"/></l><r>nos<s n="prn"/><s n="pro"/></r></p></e>
+       <e><p><l>vos<s n="prn"/><s n="pro"/></l><r>os<s n="prn"/><s n="pro"/></r></p></e>
 
        <!-- ia: (p3 neuter - would it work as gd? it should select among m, f, nt): lo, los <- es: lo, la, los, las (object pronouns) -->
        <e r="RL"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1934,8 +1935,17 @@
        <e r="RL"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
 
+       <e><p><l>e<s n="cnjcoo"/></l>  <r>y<s n="cnjcoo"/></r></p></e>
+       <e><p><l>o<s n="cnjcoo"/></l>  <r>o<s n="cnjcoo"/></r></p></e>
+       <e><p><l>mais<s n="cnjcoo"/></l>  <r>pero<s n="cnjcoo"/></r></p></e>
+       <e r="LR"><p><l>ma<s n="cnjcoo"/></l>  <r>pero<s n="cnjcoo"/></r></p></e>
+       <e r="LR"><p><l>sed<s n="cnjcoo"/></l>  <r>pero<s n="cnjcoo"/></r></p></e>
+       <e><p><l>sinon<s n="cnjcoo"/></l>  <r>sino<s n="cnjcoo"/></r></p></e>
+       <e><p><l>ni<s n="cnjcoo"/></l>  <r>ni<s n="cnjcoo"/></r></p></e>
+       <e><p><l>nec<s n="cnjcoo"/></l>  <r>ni<s n="cnjcoo"/></r></p></e>
 
-
+       <e><p><l>ne<s n="adv"/></l>  <r>no<s n="adv"/></r></p></e>
+       <e r="LR"><p><l>no<s n="adv"/></l> <r>no<s n="adv"/></r></p></e>
 
     </section>
 

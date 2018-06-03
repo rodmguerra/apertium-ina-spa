@@ -13820,8 +13820,8 @@
                                     <var n="auxiliar"/>
                                     <var n="etiq_aux"/>
                                     <lit-tag v="pri"/>
-                                    <clip pos="3" side="tl" part="pers"/>
-                                    <clip pos="3" side="tl" part="nbr"/>
+                                    <!-- <clip pos="3" side="tl" part="pers"/> -->
+                                    <!-- <clip pos="3" side="tl" part="nbr"/> -->
                                 </lu>
                                 <b/>
                                 <lu>
