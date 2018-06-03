@@ -1002,7 +1002,7 @@
                                     <choose>
                                         <when>
                                             <test><!--mirem si concorda amb el possible subj-->
-                                                <or>
+                                                <!--<or>-->
                                                     <and>
                                                         <not>
                                                             <equal>
@@ -1010,7 +1010,16 @@
                                                                 <lit-tag v="p3"/>
                                                             </equal>
                                                         </not>
-                                                        <!--p1 = p3 in ppi (compraba), cni (compraría), prs (compre), pis (comiese), fts (comiere)-->
+
+                                                       <!-- Added "p2" because of mapping of usted/vos, TODO: find a better solution -->
+                                                       <not>
+                                                          <equal>
+                                                             <var n="pers_subj"/>
+                                                             <lit-tag v="p2"/>
+                                                          </equal>
+                                                       </not>
+
+                                                        <!--p1 = p3 in ppi (compraba), cni (compraría), prs (compre), pis (comiese), fts (comiere) TODO: find a better solution -->
                                                         <not>
                                                             <and>
                                                                 <equal>
@@ -1042,13 +1051,15 @@
                                                             </and>
                                                         </not>
                                                     </and>
+                                                    <!--
                                                     <not>
                                                         <equal>
                                                             <clip pos="1" part="nbr"/>
                                                             <var n="nombre_subj"/>
                                                         </equal>
                                                     </not>
-                                                </or>
+                                                    -->
+                                                <!--</or>-->
                                             </test>
 
 

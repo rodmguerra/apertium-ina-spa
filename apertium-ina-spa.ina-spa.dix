@@ -17,6 +17,7 @@
          <sdef n="vbmod"    c="Modal verb"/>
         <sdef n="prn"    c="Pronoun"/>
         <sdef n="tn"    c="Tonic"/>
+        <sdef n="pro"    c="pro"/>
         <sdef n="nom"    c="Nominative"/>
         <sdef n="p1"    c="1st person"/>
         <sdef n="p2"    c="2nd person"/>
@@ -25,6 +26,7 @@
         <sdef n="sp"    c="Singular/plural"/>
         <sdef n="def"    c="Definite"/>
         <sdef n="ind"    c="Indefinite"/>
+        <sdef n="pos"    c="Possessive"/>
         <sdef n="mf"    c="Masculine/feminine"/>
         <sdef n="adj"    c="Adjective"/>
         <sdef n="nd"    c=""/>
@@ -1254,6 +1256,29 @@
         <e><p><l>barra<s n="n"/></l><r>barrote<s n="n"/><s n="m"/></r></p></e>
         <e><p><l>ruito<s n="n"/></l><r>barullo<s n="n"/><s n="m"/></r></p></e>
 
+
+       <!-- Added by rodmguerra, testing Imperio Romano book -->
+       <e><p><l>seculo<s n="n"/></l><r>siglo<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>romano<s n="n"/></l><r>romano<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>governamento<s n="n"/></l><r>gobierno<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>domination<s n="n"/></l><r>dominación<s n="n"/><s n="f"/></r></p></e>
+       <e><p><l>region<s n="n"/></l><r>región<s n="n"/><s n="f"/></r></p></e>
+       <e><p><l>systema<s n="n"/></l><r>sistema<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>rege<s n="n"/></l><r>rey<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>lege<s n="n"/></l><r>ley<s n="n"/><s n="f"/></r></p></e>
+       <e><p><l>republica<s n="n"/></l><r>república<s n="n"/><s n="f"/></r></p></e>
+
+       <e><p><l>efficiente<s n="adj"/></l><r>eficiente<s n="adj"/><s n="mf"/></r></p></e>
+       <e><p><l>circuiente<s n="adj"/></l><r>circundante<s n="adj"/><s n="mf"/></r></p></e>
+
+       <e><p><l>crear<s n="vblex"/></l><r>crear<s n="vblex"/></r></p></e>
+       <e><p><l>liberar<s n="vblex"/></l><r>librar<s n="vblex"/></r></p></e>
+       <e><p><l>elaborar<s n="vblex"/></l><r>elaborar<s n="vblex"/></r></p></e>
+       <e><p><l>reinfortiar<s n="vblex"/></l><r>reforzar<s n="vblex"/></r></p></e>
+
+
+
+
         <e><p><l>abandonar<s n="vblex"/></l><r>abandonar<s n="vblex"/></r></p></e>
         <e><p><l>plenar<s n="vblex"/></l><r>abarrotar<s n="vblex"/></r></p></e>
         <e><p><l>abatter<s n="vblex"/></l><r>abatir<s n="vblex"/></r></p></e>
@@ -1766,39 +1791,83 @@
        <!-- poter -->
        <e><p><l>poter<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
 
-        <e><p><l>io<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="tn"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-        <e><p><l>tu<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="tn"/></l><r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+        <e><p><l>io<s n="prn"/><s n="tn"/></l><r>yo<s n="prn"/><s n="tn"/></r></p></e>
+        <e><p><l>tu<s n="prn"/><s n="tn"/></l><r>tú<s n="prn"/><s n="tn"/></r></p></e>
 
        <!-- ille, illa, illo, illes, illas <=> él, ella, ello, ellos, ellas -->
         <e><p><l>ille<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
         <e><p><l>ille<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>illo<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="tn"/></l><r>ello<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/></r></p></e>
+        <e><p><l>ille<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="tn"/></l><r>ello<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/></r></p></e>
         <e><p><l>ille<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
         <e><p><l>ille<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-        <!-- illos => ellos -->
-        <e r="LR"><p><l>illos<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+
+       <!-- illos => ellos -->
+       <e r="LR"><p><l>ille<s n="prn"/><s n="p3"/><s n="nt"/><s n="pl"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 
         <!-- nos <=> nosotros;      nos <= nosotras -->
-        <e><p><l>nos<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-        <e r="RL"><p><l>nos<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-
-        <!-- vos <=> nosotros;      nos <= vosotras -->
-        <e><p><l>vos<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
-        <e r="RL"><p><l>vos<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="tn"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+       <e r="LR"><p><l>nos<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="gd"/></r></p></e>
+       <e r="RL"><p><l>nos<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/></r></p></e>
+       <e r="RL"><p><l>nos<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/></r></p></e>
 
 
-        <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+       <!-- vos <=> vosotros;      nos <= vosotras -->
+       <e r="LR"><p><l>vos<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>nosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="gd"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>vos<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>vos<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>vos<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>usted<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>vos<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>usted<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+
+       <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
         <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
         <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
         <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="gd"/><s n="nd"/></r></p></e>
 
+       <!-- un <=> un, una (singular) -->
        <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
        <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
        <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="gd"/><s n="sg"/></r></p></e>
 
+       <!-- alcun <= unos, unas (plural) -->
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="pl"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="pl"/></l><r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
 
-        <e><p><l>certe<s n="adj"/></l><r>cierto<s n="adj"/></r></p></e>
+       <!-- alcun <=> algún, alguna, algunos, algunas -->
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="sp"/></l><r>alguno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="sp"/></l><r>alguno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="sp"/></l><r>alguno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="sp"/></l><r>alguno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+       <e r="LR"><p><l>alcun<s n="det"/><s n="ind"/><s n="sp"/></l><r>alguno<s n="det"/><s n="ind"/><s n="gd"/><s n="sg"/></r></p></e>
+
+       <!-- mi <=> mi, mis -->
+       <e r="RL"><p><l>mi<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>mi<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+       <e r="LR"><p><l>mi<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="nd"/></r></p></e>
+
+       <!-- su <=> su, sus -->
+       <e r="RL"><p><l>su<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>su<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+       <e r="LR"><p><l>su<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="nd"/></r></p></e>
+
+       <!-- nostre <=> nuestro, nuestra, nuestros, nuestras -->
+       <e r="RL"><p><l>nostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>nuestro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>nostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>nuestro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>nostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>nuestro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>nostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>nuestro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+       <e r="LR"><p><l>nostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>nuestro<s n="det"/><s n="pos"/><s n="gd"/><s n="nd"/></r></p></e>
+
+       <!-- vostre <=> vuestro, vuestra, vuestros, vuestras -->
+       <e r="RL"><p><l>vostre<s n="det"/><s n="pos"/><s n="mf"/></l><r>vuestro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>vostre<s n="det"/><s n="pos"/><s n="mf"/></l><r>vuestro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>vostre<s n="det"/><s n="pos"/><s n="mf"/></l><r>vuestro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>vostre<s n="det"/><s n="pos"/><s n="mf"/></l><r>vuestro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+       <e r="LR"><p><l>vostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>vuestro<s n="det"/><s n="pos"/><s n="gd"/><s n="nd"/></r></p></e>
+
+       <!-- TODO: This way "lor" will never appear in a translation from Spanish to Interlingua, but it's used this way in fr-es. TODO Study "their" - "suyo" in en-es. -->
+       <!-- lor => su, sus -->
+       <e r="LR"><p><l>lor<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="gd"/></r></p></e>
+
+       <e><p><l>certe<s n="adj"/></l><r>cierto<s n="adj"/></r></p></e>
 
         <e><p><l>duo<s n="num"/></l><r>dos<s n="num"/></r></p></e>
         <e><p><l>tres<s n="num"/></l><r>tres<s n="num"/></r></p></e>
@@ -1833,6 +1902,36 @@
          <e><p><l>usque<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
          <e><p><l>verso<s n="pr"/></l><r>hacia<s n="pr"/></r></p></e>
          <e><p><l>durante<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+
+       <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+       <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+       <e><p><l>durante<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+       <e><p><l>durante<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+       <e><p><l>durante<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+       <e><p><l>durante<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+       <e><p><l>durante<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+
+
+       <!-- Object/Reflexive Pronouns -->
+       <e><p><l>me<s n="prn"/><s n="pro"/></l><r>me<s n="prn"/><s n="pro"/></r></p></e>
+       <e><p><l>te<s n="prn"/><s n="pro"/></l><r>te<s n="prn"/><s n="pro"/></r></p></e>
+       <e><p><l>se<s n="prn"/><s n="pro"/></l><r>se<s n="prn"/><s n="pro"/></r></p></e>
+       <e><p><l>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+       <e><p><l>vos<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>vos<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+
+       <!-- ia: (p3 neuter - would it work as gd? it should select among m, f, nt): lo, los <- es: lo, la, los, las (object pronouns) -->
+       <e r="RL"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+
+       <!-- ia (p3 object pronouns neuter): lo, los -> es: lo, los (object pronouns - would it work as gd???)-->
+       <e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+       <e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/><s n="pl"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+
+       <!-- ia: (p3 object pronouns with gender): le, la, les, las [would it work as GD???, for now using m]<-> es: le, les (indirect object pronoun) -->
+       <e r="RL"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
 
 
