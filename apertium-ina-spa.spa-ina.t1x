@@ -7029,13 +7029,14 @@
                             <tag>
                                 <lit-tag v="SA"/>
                             </tag>
+                            <!-- apaguei de louco
                             <tag>
                                 <clip pos="1" side="tl" part="gen"/>
                             </tag>
-                            <tag>
+                           <tag>
                                 <clip pos="1" side="tl" part="nbr"/>
-                            </tag>
-                        </tags>
+                            </tag> -->
+                                                    </tags>
                         <lu>
                             <clip pos="1" side="tl" part="lemh"/>
                             <clip pos="1" side="tl" part="a_adj"/>

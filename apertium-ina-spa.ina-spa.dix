@@ -44,7 +44,34 @@
        <sdef n="adv" />
        <sdef n="cnjcoo" />
     </sdefs>
+   <pardefs>
+      <pardef n="adj_two_gender">
+         <e r="LR"><p><l><s n="adj"/></l><r><s n="adj"/><s n="gd"/><s n="nd"/></r></p></e>
+         <e r="RL"><p><l><s n="adj"/></l><r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+         <e r="RL"><p><l><s n="adj"/></l><r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+         <e r="RL"><p><l><s n="adj"/></l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+         <e r="RL"><p><l><s n="adj"/></l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      </pardef>
+      <pardef n="adj_common_gender">
+         <e r="LR"><p><l><s n="adj"/></l><r><s n="adj"/><s n="mf"/><s n="nd"/></r></p></e>
+         <e r="RL"><p><l><s n="adj"/></l><r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+         <e r="RL"><p><l><s n="adj"/></l><r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+      </pardef>
+      <pardef n="two_gender">
+         <e r="LR"><p><l></l><r><s n="gd"/><s n="nd"/></r></p></e>
+         <e r="RL"><p><l></l><r><s n="f"/><s n="pl"/></r></p></e>
+         <e r="RL"><p><l></l><r><s n="f"/><s n="sg"/></r></p></e>
+         <e r="RL"><p><l></l><r><s n="m"/><s n="pl"/></r></p></e>
+         <e r="RL"><p><l></l><r><s n="m"/><s n="sg"/></r></p></e>
+      </pardef>
+      <pardef n="common_gender">
+         <e r="LR"><p><l></l><r><s n="gd"/><s n="nd"/></r></p></e>
+         <e r="RL"><p><l></l><r><s n="mf"/><s n="pl"/></r></p></e>
+         <e r="RL"><p><l></l><r><s n="mf"/><s n="sg"/></r></p></e>
+      </pardef>
 
+
+   </pardefs>
     <section id="main" type="standard">
         <!-- Define entries within <e> here. -->
         <e><p><l>can<s n="n"/></l><r>perro<s n="n"/><s n="m"/></r></p></e>
@@ -1272,6 +1299,10 @@
        <e><p><l>efficiente<s n="adj"/></l><r>eficiente<s n="adj"/><s n="mf"/></r></p></e>
        <e><p><l>circuiente<s n="adj"/></l><r>circundante<s n="adj"/><s n="mf"/></r></p></e>
 
+
+       <e><p><l>multe</l><r>mucho</r></p><par n="adj_two_gender"/></e>
+       <e><p><l>parve</l><r>pequeño</r></p><par n="adj_two_gender"/></e>
+
        <e><p><l>crear<s n="vblex"/></l><r>crear<s n="vblex"/></r></p></e>
        <e><p><l>liberar<s n="vblex"/></l><r>librar<s n="vblex"/></r></p></e>
        <e><p><l>elaborar<s n="vblex"/></l><r>elaborar<s n="vblex"/></r></p></e>
@@ -1703,7 +1734,7 @@
         <e><p><l>pesar<s n="vblex"/></l><r>pesar<s n="vblex"/></r></p></e>
         <e><p><l>pinger<s n="vblex"/></l><r>pintar<s n="vblex"/></r></p></e>
         <e><p><l>plantar<s n="vblex"/></l><r>plantar<s n="vblex"/></r></p></e>
-        <e><p><l>accender<s n="vblex"/></l><r>poner<s n="vblex"/></r></p></e>
+        <e><p><l>poner<s n="vblex"/></l><r>poner<s n="vblex"/></r></p></e>
         <e><p><l>probar<s n="vblex"/></l><r>probar<s n="vblex"/></r></p></e>
         <e><p><l>producer<s n="vblex"/></l><r>producir<s n="vblex"/></r></p></e>
         <e><p><l>excavar<s n="vblex"/></l><r>profundizar<s n="vblex"/></r></p></e>
@@ -1768,7 +1799,7 @@
         <e><p><l>traciar<s n="vblex"/></l><r>trazar<s n="vblex"/></r></p></e>
         <e><p><l>poner<s n="vblex"/></l><r>ubicar<s n="vblex"/></r></p></e>
         <e><p><l>unificar<s n="vblex"/></l><r>unificar<s n="vblex"/></r></p></e>
-        <e><p><l>adjunger<s n="vblex"/></l><r>unir<s n="vblex"/></r></p></e>
+        <!--<e><p><l>adjunger<s n="vblex"/></l><r>unir<s n="vblex"/></r></p></e>-->
         <e><p><l>hesitar<s n="vblex"/></l><r>vacilar<s n="vblex"/></r></p></e>
         <e><p><l>valer<s n="vblex"/></l><r>valer<s n="vblex"/></r></p></e>
         <e><p><l>barrar<s n="vblex"/></l><r>vallar<s n="vblex"/></r></p></e>
@@ -1818,55 +1849,36 @@
        <e r="RL"><p><l>vos<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>usted<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
        <e r="RL"><p><l>vos<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>usted<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 
-       <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
-        <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
-        <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
-        <e r="RL"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
-        <e r="LR"><p><l>le<s n="det"/><s n="def"/><s n="sp"/></l><r>el<s n="det"/><s n="def"/><s n="gd"/><s n="nd"/></r></p></e>
+       <e r="RL"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+        <e r="RL"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+        <e r="RL"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+        <e r="RL"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>le<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/><s n="gd"/><s n="nd"/></r></p></e>
 
        <!-- un <=> un, una (singular) -->
-       <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
-       <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
-       <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="gd"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>un<s n="det"/><s n="ind"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>un<s n="det"/><s n="ind"/></l><r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+       <e r="LR"><p><l>un<s n="det"/><s n="ind"/></l><r>uno<s n="det"/><s n="ind"/><s n="gd"/><s n="sg"/></r></p></e>
 
        <!-- alcun <= unos, unas (plural) -->
-       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="pl"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="pl"/></l><r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/></l><r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
 
        <!-- alcun <=> algún, alguna, algunos, algunas -->
-       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="sp"/></l><r>alguno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
-       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="sp"/></l><r>alguno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
-       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="sp"/></l><r>alguno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/><s n="sp"/></l><r>alguno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
-       <e r="LR"><p><l>alcun<s n="det"/><s n="ind"/><s n="sp"/></l><r>alguno<s n="det"/><s n="ind"/><s n="gd"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/></l><r>alguno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/></l><r>alguno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/></l><r>alguno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>alcun<s n="det"/><s n="ind"/></l><r>alguno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+       <e r="LR"><p><l>alcun<s n="det"/><s n="ind"/></l><r>alguno<s n="det"/><s n="ind"/><s n="gd"/><s n="sg"/></r></p></e>
 
-       <!-- mi <=> mi, mis -->
-       <e r="RL"><p><l>mi<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
-       <e r="RL"><p><l>mi<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-       <e r="LR"><p><l>mi<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="nd"/></r></p></e>
-
-       <!-- su <=> su, sus -->
-       <e r="RL"><p><l>su<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
-       <e r="RL"><p><l>su<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-       <e r="LR"><p><l>su<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="nd"/></r></p></e>
-
-       <!-- nostre <=> nuestro, nuestra, nuestros, nuestras -->
-       <e r="RL"><p><l>nostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>nuestro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-       <e r="RL"><p><l>nostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>nuestro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-       <e r="RL"><p><l>nostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>nuestro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-       <e r="RL"><p><l>nostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>nuestro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-       <e r="LR"><p><l>nostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>nuestro<s n="det"/><s n="pos"/><s n="gd"/><s n="nd"/></r></p></e>
-
-       <!-- vostre <=> vuestro, vuestra, vuestros, vuestras -->
-       <e r="RL"><p><l>vostre<s n="det"/><s n="pos"/><s n="mf"/></l><r>vuestro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-       <e r="RL"><p><l>vostre<s n="det"/><s n="pos"/><s n="mf"/></l><r>vuestro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-       <e r="RL"><p><l>vostre<s n="det"/><s n="pos"/><s n="mf"/></l><r>vuestro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-       <e r="RL"><p><l>vostre<s n="det"/><s n="pos"/><s n="mf"/></l><r>vuestro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-       <e r="LR"><p><l>vostre<s n="det"/><s n="pos"/><s n="sp"/></l><r>vuestro<s n="det"/><s n="pos"/><s n="gd"/><s n="nd"/></r></p></e>
-
-       <!-- TODO: This way "lor" will never appear in a translation from Spanish to Interlingua, but it's used this way in fr-es. TODO Study "their" - "suyo" in en-es. -->
-       <!-- lor => su, sus -->
-       <e r="LR"><p><l>lor<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="gd"/></r></p></e>
+       <!-- possessive determinants: det pos-->
+       <e><p><l>mi<s n="det"/><s n="pos"/></l>     <r>mío<s n="det"/><s n="pos"/></r></p><par n="common_gender"/></e>
+       <e><p><l>tu<s n="det"/><s n="pos"/></l>     <r>tuyo<s n="det"/><s n="pos"/></r></p><par n="common_gender"/></e>
+       <e><p><l>su<s n="det"/><s n="pos"/></l>     <r>suyo<s n="det"/><s n="pos"/></r></p><par n="common_gender"/></e>
+       <e><p><l>nostre<s n="det"/><s n="pos"/></l> <r>nuestro<s n="det"/><s n="pos"/></r></p><par n="two_gender"/></e>
+       <e><p><l>vostre<s n="det"/><s n="pos"/></l> <r>vuestro<s n="det"/><s n="pos"/></r></p><par n="two_gender"/></e>
+       <!-- TODO: This way "lor" will never appear in a translation from Spanish to Interlingua. Study "their" - "suyo" in en-es. -->
+       <e r="LR"><p><l>lor<s n="det"/><s n="pos"/></l><r>suyo<s n="det"/><s n="pos"/><s n="gd"/><s n="nd"/></r></p></e>
 
        <e><p><l>certe<s n="adj"/></l><r>cierto<s n="adj"/></r></p></e>
 
@@ -1899,7 +1911,9 @@
          <e><p><l>infra<s n="pr"/></l><r>debajo<b/>de<s n="pr"/></r></p></e>
          <e><p><l>ante<s n="pr"/></l><r>ante<s n="pr"/></r></p></e>
          <e r="RL"><p><l>ante<s n="pr"/></l><r>delante<b/>de<s n="pr"/></r></p></e>
-         <e><p><l>post<s n="pr"/></l><r>despues<b/>de<s n="pr"/></r></p></e>
+         <e r="RL"><p><l>ante<s n="pr"/></l><r>frente<b/>a<s n="pr"/></r></p></e>
+         <e><p><l>post<s n="pr"/></l><r>después<b/>de<s n="pr"/></r></p></e>
+         <e><p><l>depost<s n="adv"/></l><r>después<s n="adv"/></r></p></e>
          <e><p><l>usque<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
          <e><p><l>verso<s n="pr"/></l><r>hacia<s n="pr"/></r></p></e>
          <e><p><l>durante<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
@@ -1944,8 +1958,9 @@
        <e><p><l>ni<s n="cnjcoo"/></l>  <r>ni<s n="cnjcoo"/></r></p></e>
        <e><p><l>nec<s n="cnjcoo"/></l>  <r>ni<s n="cnjcoo"/></r></p></e>
 
-       <e><p><l>ne<s n="adv"/></l>  <r>no<s n="adv"/></r></p></e>
+       <e><p><l>non<s n="adv"/></l>  <r>no<s n="adv"/></r></p></e>
        <e r="LR"><p><l>no<s n="adv"/></l> <r>no<s n="adv"/></r></p></e>
+
 
     </section>
 
