@@ -11096,15 +11096,12 @@
                                 <clip pos="1" side="tl" part="temps"/>
                             </tag>
                         </tags>
-                        <lu>
-                            <lit v="en"/>
-                            <lit-tag v="pr"/>
-                        </lu>
-                        <b/>
+<!-- LOCAO -->
                         <lu>
                             <clip pos="1" side="tl" part="lemh"/>
                             <clip pos="1" side="tl" part="a_verb"/>
-                            <clip pos="1" side="tl" part="temps"/>
+                            <!--<clip pos="1" side="tl" part="temps"/>-->
+                            <lit-tag v="pprs"/>
                             <!--<clip pos="1" side="tl" part="pers"/>-->
                             <clip pos="1" side="tl" part="nbr"/>
                             <clip pos="1" side="tl" part="lemq"/>
@@ -16243,14 +16240,10 @@
                                     </tag>
                                 </tags>
                                 <lu>
-                                    <lit v="en"/>
-                                    <lit-tag v="pr"/>
-                                </lu>
-                                <b/>
-                                <lu>
                                     <clip pos="1" side="tl" part="lemh"/>
                                     <clip pos="1" side="tl" part="a_verb"/>
-                                    <clip pos="1" side="tl" part="temps"/>
+                                    <lit-tag v="pprs"/>
+    
                                     <!--<clip pos="1" side="tl" part="pers"/>-->
                                     <!--<clip pos="1" side="tl" part="nbr"/>-->
                                     <clip pos="1" side="tl" part="lemq"/>
@@ -16277,11 +16270,6 @@
                                     </tag>
                                 </tags>
                                 <lu>
-                                    <lit v="en"/>
-                                    <lit-tag v="pr"/>
-                                </lu>
-                                <b/>
-                                <lu>
                                     <clip pos="2" side="tl" part="lem"/>
                                     <lit-tag v="prn.pro"/>
                                     <clip pos="2" side="tl" part="tipoenc_pro"/>
@@ -16290,7 +16278,7 @@
                                 <lu>
                                     <clip pos="1" side="tl" part="lemh"/>
                                     <clip pos="1" side="tl" part="a_verb"/>
-                                    <clip pos="1" side="tl" part="temps"/>
+                                    <lit-tag v="pprs"/>
                                     <!--<clip pos="1" side="tl" part="pers"/>-->
                                     <!--<clip pos="1" side="tl" part="nbr"/>-->
                                     <clip pos="1" side="tl" part="lemq"/>
@@ -23382,9 +23370,9 @@
                             <clip pos="1" side="tl" part="lem"/>
                             <clip pos="1" side="tl" part="a_num"/>
                             <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
-                            <clip pos="1" side="tl" part="gen_mf"/>
+                            <!--<clip pos="1" side="tl" part="gen_mf"/>-->
                             <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
-                            <clip pos="1" side="tl" part="nbr_sp"/>
+                            <!--<clip pos="1" side="tl" part="nbr_sp"/>-->
                         </lu>
                     </chunk>
                 </out>
