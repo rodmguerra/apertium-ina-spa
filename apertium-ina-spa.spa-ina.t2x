@@ -3662,6 +3662,9 @@
             </action>
         </rule>
 <!--  ADAPTATE PRO INTERLINGUA  -->
+
+<!-- 14 -->
+
         <rule comment="REGLA: SV">
             <pattern>
                 <pattern-item n="SV"/>
@@ -3682,8 +3685,10 @@
                 </out>
             </action>
         </rule>
+
         <!-- TODO: VERIFY IF THIS RULE COPIED FROM FRENCH APPLIES TO INTERLINGUA -->
 
+        
         <rule comment="REGLA: SV SN">
             <pattern>
                 <pattern-item n="SV"/>
